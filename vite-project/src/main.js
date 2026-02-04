@@ -12,7 +12,7 @@ bg.onmessage = (event) => {
 button.onclick = () => {
   bg.postMessage({
     type: "doHeavyTask2",
-    iterations: 5e3,
+    iterations: 5e9,
   });
 };
 button1.onclick = () => {
